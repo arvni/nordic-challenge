@@ -12,7 +12,8 @@ class RepositoryServiceProvider extends ServiceProvider
     public function register(): void
     {
         $models = [
-            "User"
+            "User",
+            "Transaction"
         ];
 
         foreach ($models as $model) {
